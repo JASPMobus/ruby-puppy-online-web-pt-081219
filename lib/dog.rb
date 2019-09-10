@@ -12,5 +12,11 @@ class Dog
   
   def self.all
     @@all 
-  end 
+  end
+  
+  def self.print_all
+    @@all.each do |pupper|
+      puts pupper
+    end
+  end
 end
