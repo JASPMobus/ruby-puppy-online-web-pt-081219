@@ -20,5 +20,6 @@ class Dog
     end
   end
   
+  private
   
 end
